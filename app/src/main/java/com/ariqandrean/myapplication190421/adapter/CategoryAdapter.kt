@@ -1,6 +1,5 @@
 package com.ariqandrean.myapplication190421.adapter
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,7 +8,7 @@ import com.ariqandrean.myapplication190421.model.CategoryModel
 import com.ariqandrean.myapplication190421.R
 import kotlinx.android.synthetic.main.caregories_item.view.*
 
-class CategoryAdapter(val context: Context, val dataList: ArrayList<CategoryModel>?)
+class CategoryAdapter(var dataList: ArrayList<CategoryModel>?, context: ArrayList<CategoryModel>)
     : RecyclerView.Adapter<CategoryAdapter.MyViewHolder>() {
     class MyViewHolder (view: View) : RecyclerView.ViewHolder(view) {
         val tvName = view.tvName

@@ -1,4 +1,8 @@
 package com.ariqandrean.myapplication190421.model
 
-data class CategoryModel(val name:String) {
+import java.io.Serializable
+
+class CategoryModel : Serializable{
+    lateinit var name: String
+
 }

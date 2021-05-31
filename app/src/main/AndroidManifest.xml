@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication190421">
-        <activity android:name=".PaymentDoneActivity"></activity>
+        <activity android:name=".login.RegisterActivity"></activity>
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".PaymentDoneActivity" />
         <activity android:name=".PaymentActivity" />
         <activity android:name=".OrderActivity" />
         <activity android:name=".ssd.SsdActivity" />
